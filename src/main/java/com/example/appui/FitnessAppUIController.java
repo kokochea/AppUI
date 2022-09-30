@@ -26,4 +26,19 @@ public class FitnessAppUIController {
         stage.show();
     }
 
+    public void sobreNosotrosButton(ActionEvent e) throws IOException{
+        Parent root = FXMLLoader.load(getClass().getResource("sobreNostros.fxml"));
+        Stage stage = (Stage)((Node)e.getSource()).getScene().getWindow();
+        Scene scene = new Scene(root);
+        stage.setScene(scene);
+        stage.show();
+    }
+
+    public void volverButton(ActionEvent e) throws IOException {
+        Parent root = FXMLLoader.load(getClass().getResource("appUI.fxml"));
+        Stage stage = (Stage)((Node)e.getSource()).getScene().getWindow();
+        Scene scene = new Scene(root);
+        stage.setScene(scene);
+        stage.show();
+    }
 }

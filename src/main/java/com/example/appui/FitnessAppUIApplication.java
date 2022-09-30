@@ -22,6 +22,7 @@ public class FitnessAppUIApplication extends Application {
         Parent root = loader.load();
         Image logo = new Image(getClass().getResourceAsStream("fitness.png"));
         Scene scene = new Scene(root);
+        stage.setResizable(false);
         stage.getIcons().add(logo);
         stage.setTitle("FitnessApp");
         stage.setScene(scene);

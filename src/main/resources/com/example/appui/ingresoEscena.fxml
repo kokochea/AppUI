@@ -9,7 +9,7 @@
 
 <AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.appui.InputController">
    <children>
-      <Button layoutX="270.0" layoutY="299.0" mnemonicParsing="false" onAction="#ingresarButton" text="Ingresar" />
+      <Button layoutX="225.0" layoutY="301.0" mnemonicParsing="false" onAction="#ingresarButton" text="Ingresar" />
       <TextField fx:id="usuarioField" layoutX="225.0" layoutY="187.0" promptText="Usuario" />
       <PasswordField fx:id="passwordField" layoutX="225.0" layoutY="224.0" promptText="Contraseña" />
       <Label layoutX="246.0" layoutY="147.0" text="Acceder a su cuenta" />
@@ -19,5 +19,6 @@
          </font>
       </Label>
       <Label fx:id="errorLabel" alignment="CENTER" layoutX="-1.0" layoutY="267.0" prefHeight="17.0" prefWidth="605.0" />
+      <Button layoutX="324.0" layoutY="301.0" mnemonicParsing="false" onAction="#volverButton" text="Volver" />
    </children>
 </AnchorPane>
